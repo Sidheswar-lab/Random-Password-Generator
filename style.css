@@ -3,7 +3,23 @@
     margin: 0;
 }
 
-body{
+/* body{
     background-color: rgb(12, 228, 12);
     color: rgb(220, 225, 230);
+} */
+
+
+#title{
+    display: block;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+#container{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+#boxContainer{
+    display: flex;
+    align-items: center;
 }
