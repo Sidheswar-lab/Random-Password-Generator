@@ -13,6 +13,7 @@ body{
     color: black;
 }
 #container{
+    padding-top: 12rem;
     display: grid;
     place-items: center;
     margin: auto;
