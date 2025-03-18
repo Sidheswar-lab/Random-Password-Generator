@@ -2,17 +2,15 @@
     padding: 0;
     margin: 0;
 }
-
-/* body{
-    background-color: rgb(12, 228, 12);
+body{
+    background-color: rgb(147, 232, 21);
     color: rgb(220, 225, 230);
-} */
-
-
+}
 #title{
     display: block;
     background-color: aquamarine;
     padding: 1rem;
+    color: black;
 }
 #container{
     display: grid;
@@ -20,6 +18,35 @@
     margin: auto;
 }
 #boxContainer{
+    margin: 30px;
     display: flex;
     align-items: center;
+    border: 2px solid saddlebrown ;
+    border-radius: 4px;
+    background-color: aliceblue;
+    
+}
+#boxContainer img{
+    height: 40x;
+    width: 40px;
+    cursor: pointer;
+}
+#passwordbox{
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+#boxContainer img:hover{
+    background-color: antiquewhite;
+}
+#createPassword{
+    width: 200px;
+    height: 40px;
+    font-size:medium;
+    cursor: pointer;
+}
+#createPassword:hover{
+    border: 3px solid salmon;
 }
